@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Eventz</title>
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+  <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCd-VmMeFcS2Ym0X6Apq-iLgZ9DNifOaW4",
+      authDomain: "myeventz-4de49.firebaseapp.com",
+      databaseURL: "https://myeventz-4de49.firebaseio.com",
+      projectId: "myeventz-4de49",
+      storageBucket: "myeventz-4de49.appspot.com",
+      messagingSenderId: "577338480756"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script>
+    const messaging = firebase.messaging();
+    messaging.requestPermission().then(function(){
+      return messaging.getToken();
+    }).then(function(token){
+      console.log("Got the token for messaging"+token);
+    }).catch(function(){
+      console.log("Not allowed for push notifications");
+    });
+  </script>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1976d2">
+</head>
+<body>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+</body>
+</html>
