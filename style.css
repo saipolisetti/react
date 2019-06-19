@@ -1,0 +1,26 @@
+
+h1{
+    background-color: aqua;
+    padding: 40px;
+    margin: 0px;
+    text-align: center;
+}
+div{
+    padding-top:20px;
+
+}
+div a{
+    color:rgb(40,240,150);
+    
+    
+}
+h2{
+    font-size:40px;
+    color: rgb(130,50,130);
+}
+p{
+    color:royalblue;
+    font-size:20px;
+    margin:10px 0px 0px 50px;
+
+}
