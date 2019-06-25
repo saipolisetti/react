@@ -1,23 +1,24 @@
 header{
     text-align:center;
-    font-family: 'arial narrow';
+    font-family: 'catalina';
 }
 html {
     width: 100%;
 }
 body{
-    background-color: darkturquoise;
+    background-color: #3f7fb5;;
     width:100%;
     height:100%;
 }
 .container {
     display: table;
     width: 50%;
-    background-color: lightgray;
+    background-color: #e0e0e0ad;
     padding:10px;
     box-sizing: border-box;
     margin: 0 auto;
     font-family: italic;
+    box-shadow:1px -6px 20px 0px;
 }
 .container1 {
     display: table-row;
@@ -28,10 +29,10 @@ body{
     width:50%;
     display: table-cell;
 }
-input[type=button] {
-    background-color: rgb(25, 143, 9);
+input[type=submit] {
+    background-color: rgba(116, 143, 9, 0.77);
     padding: 10px;
-    border:3px solid rgb(27, 155, 15);
+    border:3px solid rgba(69, 155, 15, 0.05);
     border-radius: 2px;
     color:white;
     cursor: pointer;

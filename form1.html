@@ -8,13 +8,14 @@
     
     <body>
         <header>
-            <h1>Students Details</h1>
+            <h1>Registration Form</h1>
         </header>
         <div class="container">
+        <form action="action.php" method="GET">
 
             <div class="container1">
                 <div class="col">
-                    <label>FirstPerson </label>
+                    <label>FirstName </label>
                 </div>
                 <pre>:  </pre>
                 <div class="col">
@@ -24,58 +25,104 @@
 
             <div class="container1">
                 <div class="col">
-                    <label>SecondPerson </label>
+                    <label>LastName</label>
                 </div> 
                 <pre>:  </pre>
                 <div class="col">
-                    <input type="text" name="sname" id="name">
+                    <input type="text" name="lname" id="name">
                 </div> 
             </div> 
 
             <div class="container1">
                 <div class="col">
-                    <label>ThirdPerson </label>
+                    <label>Email </label>
                 </div> 
                 <pre>:  </pre>
                 <div class="col">
-                    <input type="text" name="sname" id="name">
+                    <input type="email" name="email" id="mail">
                 </div> 
             </div>
 
             <div class="container1">
                 <div class="col">
-                    <label>fourthPerson </label>
+                    <label>Date Of Birth </label>
                 </div> 
                 <pre>:  </pre>
                 <div class="col">
-                    <input type="text" name="sname" id="name">
+                    <input type="date" name="date" id="dob">
                 </div> 
             </div>
 
             <div class="container1">
                     <div class="col">
-                        <label>FifthPerson </label>
+                        <label>Gender</label>
                     </div>
                     <pre>:  </pre>
                     <div class="col">
-                        <input type="type" name="fname" id="name">
+                        <input type="radio"  name="r1">Male
+                        <input type="radio" name="r1">Female
                     </div>
             </div>
 
             <div class="container1">
                     <div class="col">
-                        <label>SixthPerson </label>
+                        <label>Address </label>
                     </div>
                     <pre>:  </pre>
                     <div class="col">
-                        <input type="type" name="fname" id="name">
+                        <textarea name="add" rows="4" col="20"></textarea>
                     </div>
             </div>
+
+            <div class="container1">
+                <div class="col">
+                    <label>City </label>
+                </div>
+                <pre>:  </pre>
+                <div class="col">
+                    <input type="text" name="c1" id="city">
+                </div>
+            </div>
+
+            <div class="container1">
+                <div class="col">
+                    <label>Languages </label>
+                </div>
+                <pre>:  </pre>
+                <div class="col">
+                    <input type="checkbox" name="lan">Telugu
+                    <input type="checkbox" name="lan1">English
+                    <input type="checkbox" name="lan2">Hindi
+                    <input type="checkbox" name="lan3">Others
+                </div>
+            </div>
+
+            <div class="container1">
+                <div class="col">
+                    <label>Contact </label>
+                </div>
+                <pre>:  </pre>
+                <div class="col">
+                    <input type="number" name="no" id="num">
+                </div>
+            </div>
+
+            <div class="container1">
+                <div class="col">
+                    <label>Country</label>
+                </div>
+                <pre>:  </pre>
+                <div class="col">
+                    <input type="text" name="country" id="cou">
+                </div>
+            </div>
+
 
         </div>  
-        <div class="sub">
-            <input type="button" value="submit">
-        </div>          
+            <div class="sub">
+                <input type="submit" value="Submit">
+            </div>   
         
+        </form>
     </body>
 </html>
