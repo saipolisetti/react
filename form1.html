@@ -1,70 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link href="f1style.css" rel="stylesheet">
-    </head>
-    
-    <body>
-        <header>
-            <h1>Registration Form</h1>
-        </header>
-        <div class="container">
-        <form action="action.php" method="GET">
 
-            <div class="container1">
-                <div class="col">
-                    <label>FirstName </label>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="f1style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <fieldset>
+            <legend> Registration Form</legend>
+            <form action="action.php" method="GET">
+
+                <div class="container1">
+                    <div class="col">
+                        <label>FirstName </label>
+                    </div>
+                    <pre>:  </pre>
+                    <div class="col">
+                        <input type="type" name="fname" id="name">
+                    </div>
                 </div>
-                <pre>:  </pre>
-                <div class="col">
-                    <input type="type" name="fname" id="name">
+
+                <div class="container1">
+                    <div class="col">
+                        <label>LastName</label>
+                    </div>
+                    <pre>:  </pre>
+                    <div class="col">
+                        <input type="text" name="lname" id="name">
+                    </div>
                 </div>
-            </div>
 
-            <div class="container1">
-                <div class="col">
-                    <label>LastName</label>
-                </div> 
-                <pre>:  </pre>
-                <div class="col">
-                    <input type="text" name="lname" id="name">
-                </div> 
-            </div> 
+                <div class="container1">
+                    <div class="col">
+                        <label>Email </label>
+                    </div>
+                    <pre>:  </pre>
+                    <div class="col">
+                        <input type="email" name="email" id="mail">
+                    </div>
+                </div>
 
-            <div class="container1">
-                <div class="col">
-                    <label>Email </label>
-                </div> 
-                <pre>:  </pre>
-                <div class="col">
-                    <input type="email" name="email" id="mail">
-                </div> 
-            </div>
+                <div class="container1">
+                    <div class="col">
+                        <label>Date Of Birth </label>
+                    </div>
+                    <pre>:  </pre>
+                    <div class="col">
+                        <input type="date" name="date" id="dob">
+                    </div>
+                </div>
 
-            <div class="container1">
-                <div class="col">
-                    <label>Date Of Birth </label>
-                </div> 
-                <pre>:  </pre>
-                <div class="col">
-                    <input type="date" name="date" id="dob">
-                </div> 
-            </div>
-
-            <div class="container1">
+                <div class="container1">
                     <div class="col">
                         <label>Gender</label>
                     </div>
                     <pre>:  </pre>
                     <div class="col">
-                        <input type="radio"  name="r1">Male
+                        <input type="radio" name="r1">Male
                         <input type="radio" name="r1">Female
                     </div>
-            </div>
+                </div>
 
-            <div class="container1">
+                <div class="container1">
                     <div class="col">
                         <label>Address </label>
                     </div>
@@ -72,57 +73,59 @@
                     <div class="col">
                         <textarea name="add" rows="4" col="20"></textarea>
                     </div>
-            </div>
+                </div>
 
-            <div class="container1">
-                <div class="col">
-                    <label>City </label>
+                <div class="container1">
+                    <div class="col">
+                        <label>City </label>
+                    </div>
+                    <pre>:  </pre>
+                    <div class="col">
+                        <input type="text" name="c1" id="city">
+                    </div>
                 </div>
-                <pre>:  </pre>
-                <div class="col">
-                    <input type="text" name="c1" id="city">
-                </div>
-            </div>
 
-            <div class="container1">
-                <div class="col">
-                    <label>Languages </label>
+                <div class="container1">
+                    <div class="col">
+                        <label>Languages </label>
+                    </div>
+                    <pre>:  </pre>
+                    <div class="col">
+                        <input type="checkbox" name="lan">Telugu
+                        <input type="checkbox" name="lan1">English
+                        <input type="checkbox" name="lan2">Hindi
+                        <input type="checkbox" name="lan3">Others
+                    </div>
                 </div>
-                <pre>:  </pre>
-                <div class="col">
-                    <input type="checkbox" name="lan">Telugu
-                    <input type="checkbox" name="lan1">English
-                    <input type="checkbox" name="lan2">Hindi
-                    <input type="checkbox" name="lan3">Others
-                </div>
-            </div>
 
-            <div class="container1">
-                <div class="col">
-                    <label>Contact </label>
+                <div class="container1">
+                    <div class="col">
+                        <label>Contact </label>
+                    </div>
+                    <pre>:  </pre>
+                    <div class="col">
+                        <input type="number" name="no" id="num">
+                    </div>
                 </div>
-                <pre>:  </pre>
-                <div class="col">
-                    <input type="number" name="no" id="num">
-                </div>
-            </div>
 
-            <div class="container1">
-                <div class="col">
-                    <label>Country</label>
+                <div class="container1">
+                    <div class="col">
+                        <label>Country</label>
+                    </div>
+                    <pre>:  </pre>
+                    <div class="col">
+                        <input type="text" name="country" id="cou">
+                    </div>
                 </div>
-                <pre>:  </pre>
-                <div class="col">
-                    <input type="text" name="country" id="cou">
-                </div>
-            </div>
 
 
-        </div>  
-            <div class="sub">
-                <input type="submit" value="Submit">
-            </div>   
-        
-        </form>
-    </body>
+    </div>
+    <div class="sub">
+        <input type="submit" value="Submit">
+    </div>
+
+    </form>
+    </fieldset>
+</body>
+
 </html>
