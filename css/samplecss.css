@@ -1,0 +1,33 @@
+body{
+    width:100%;
+    background-image: url("../backgroundiage.jpg");
+    
+}
+header{
+    text-align:center;
+}
+.main_container{
+    display: grid;
+    grid-template-columns: repeat(3,3fr)
+    
+
+    
+}
+.container {
+    display: flex;
+    float: left;
+    
+} 
+.container img{
+    margin:20px auto;
+    cursor: pointer;
+}
+.div1 {
+    padding:10px;
+    
+}
+
+.div1 p{
+    padding-top:0px;
+}
+
