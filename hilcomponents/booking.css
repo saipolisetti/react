@@ -1,0 +1,71 @@
+
+.main_room{
+    max-width: 400px;
+    display: flex;
+    margin:100px auto;
+    
+
+}
+.room1{
+    margin-right: 5px;
+    width:100px;
+    height:90px;
+    border:1px solid grey;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 5px;
+}
+.room2{
+    max-width:100px;
+    height:90px;
+    margin-right: 5px;
+    border:1px solid grey;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    
+}
+.room3{
+    width:100px;
+    height:90px;
+    border:1px solid grey;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.room4{
+    width:100px;
+    height:90px;
+    border:1px solid grey;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.header{
+    background-color: grey;
+}
+input[type="button"]{
+    border: none;
+    font-size: 15px;
+
+}
+.list{
+    display: flex;
+    box-sizing: border-box;
+    font-size: 10px;
+    
+}
+.list label{
+    position: absolute;
+    
+}
+.list .child{
+    margin-left: 50px;
+    
+}
+.list .sub_list{
+    position: relative;
+    margin: 20px 10px 0 5px;
+    
+}
+
